@@ -502,11 +502,11 @@ input[type='radio']:checked + label::after {
     margin-top: 30px;
 }
 
-#contents_offer .ticket-details-box .annotation-text {
-    margin-bottom: 10px;
+#contents_offer .annotation-text {
+    margin: 20px auto;
 }
 
-#contents_offer .ticket-details-box .annotation-text p {
+#contents_offer .annotation-text p {
     color: #ffc700;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -519,10 +519,21 @@ input[type='radio']:checked + label::after {
     color: #ffc700;
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     padding: 14px 0;
+    padding-left: 60px;
     margin-bottom: 10px;
     width: 100%;
+    position: relative;
+}
+
+#contents_offer .ticket-details-box .point p img{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 6%;
 }
 
 #contents_offer .ticket-details-box .normal-point p {
@@ -589,11 +600,22 @@ input[type='radio']:checked + label::after {
 #contents_overview .title p {
     font-size: 14px;
     color: #fff;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+#contents_overview .title .logo-img {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 #contents_overview .title .day {
-    font-size: 30px;
+    font-size: 42px;
+}
+
+#contents_overview .title .time {
+    margin-top: -15px;
+    font-size: 24px;
 }
 
 #contents_overview h3 {
@@ -610,4 +632,12 @@ input[type='radio']:checked + label::after {
 
 #contents_overview .text .annotation {
     font-size: 12px;
+}
+
+#content_bottom-cta {
+    padding: 20px 10px;
+}
+
+#content_bottom-cta div.btn-etc a img {
+    transform: rotateX(180deg);
 }
