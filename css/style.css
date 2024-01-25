@@ -598,7 +598,7 @@ input[type='radio']:checked + label::after {
 }
 
 #contents_overview .title p {
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
     /* margin-bottom: 30px; */
 }
@@ -625,9 +625,9 @@ input[type='radio']:checked + label::after {
 }
 
 #contents_overview .text p {
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 #contents_overview .text .annotation {
