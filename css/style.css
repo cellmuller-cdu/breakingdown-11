@@ -54,13 +54,6 @@ img[src$='.svg'] {
     background-attachment: fixed;
     background-size: contain;
     background-color: #851a00;
-    zoom: 1.2;
-}
-
-@media screen and (max-width: 500px) {
-    .lp-wrapper {
-        zoom: 1;
-    }
 }
 
 /* fv */
@@ -645,8 +638,25 @@ input[type='radio']:checked + label::after {
     padding: 20px 10px;
 }
 
+#content_bottom-cta .ticket-box .btn-cta {
+    margin: 20px 0;
+}
+
+#content_bottom-cta .ticket-box .annotation-text p {
+    color: #ffc700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
 #content_bottom-cta div.btn-etc a img {
     transform: rotateX(180deg);
+}
+
+#content_bottom-cta .ticket-box .btn-ticket-list {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+    margin: 0 0 20px 0;
 }
 
 @media screen and (max-width: 400px) {

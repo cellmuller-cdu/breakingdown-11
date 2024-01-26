@@ -71,12 +71,14 @@ document.addEventListener('DOMContentLoaded', function () {
         var target = document.querySelector(targetId);
 
         // スクロール位置の調整
-        var offsetTop = target.offsetTop - 20; // 20pxの余白を加える
+        // var offsetTop = target.offsetTop - 20; // 20pxの余白を加える
+        var offsetTop = target.offsetTop -20; // 20pxの余白を加える
 
-        window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth',
-        });
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth',
+            });
+
 
         event.preventDefault(); // デフォルトの動作を防止
     });
