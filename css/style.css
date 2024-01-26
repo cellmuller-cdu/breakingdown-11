@@ -346,8 +346,15 @@ img[src$='.svg'] {
 
 #contents_app .cp-01 > span {
     color: #ffc700;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 10px 0;
+    display: block;
+}
+
+#contents_app .cp-01 > span .cp-01-price {
+    font-size: 50px;
 }
 
 #contents_app .cp-02 {
