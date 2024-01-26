@@ -81,3 +81,25 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault(); // デフォルトの動作を防止
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    var link = document.getElementById('content2-link');
+    var content = document.getElementById('content1');
+
+    link.addEventListener('click', function (event) {
+        content.style.display = 'block'; // コンテンツの表示
+
+        var targetId = this.getAttribute('href');
+        var target = document.querySelector(targetId);
+
+        // スクロール位置の調整
+        var offsetTop = target.offsetTop - 20; // 20pxの余白を加える
+
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth',
+        });
+
+        event.preventDefault(); // デフォルトの動作を防止
+    });
+});
