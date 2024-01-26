@@ -67,7 +67,7 @@ img[src$='.svg'] {
 
 #contents_fv {
     position: relative;
-    margin-bottom: 260px;
+    margin-bottom: 330px;
 }
 
 .fv-bg video {
@@ -90,7 +90,7 @@ img[src$='.svg'] {
     padding: 0px 2%;
     display: inline-block;
     position: absolute;
-    bottom: -220px;
+    bottom: -340px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -640,4 +640,29 @@ input[type='radio']:checked + label::after {
 
 #content_bottom-cta div.btn-etc a img {
     transform: rotateX(180deg);
+}
+
+@media screen and (max-width: 400px) {
+    #contents_fv {
+        margin-bottom: 370px;
+    }
+    .fv-ticket-box {
+        bottom: -380px;
+    }
+
+    input[type='radio'] + label {
+        padding: 10px;
+        width: 12px;
+        height: 12px;
+    }
+}
+@media screen and (max-width: 420px) {
+    #contents_offer .ticket-offer-box .ticket-fee-box-text .ticket-name {
+        font-size: 13px;
+    }
+
+    .ticket-fee-box-text .ticket-name {
+        font-size: 14px;
+    }
+
 }
