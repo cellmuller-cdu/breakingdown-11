@@ -60,7 +60,7 @@ img[src$='.svg'] {
 
 #contents_fv {
     position: relative;
-    margin-bottom: 330px;
+    margin-bottom: 390px;
 }
 
 .fv-bg video {
@@ -83,7 +83,7 @@ img[src$='.svg'] {
     padding: 0px 2%;
     display: inline-block;
     position: absolute;
-    bottom: -340px;
+    bottom: -400px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -160,6 +160,11 @@ img[src$='.svg'] {
     color: #b40000;
     font-size: 34px;
     line-height: 1.5;
+}
+
+.ticket-fee-box-fee .regular {
+    margin-bottom: -5px;
+    font-size: 14px;
 }
 
 .ticket-fee-box-fee .price span {
@@ -506,7 +511,12 @@ input[type='radio']:checked + label::after {
     margin: 20px auto;
 }
 
-#contents_offer .annotation-text p {
+.ticket-offer-box .annotation-text {
+    margin-top: 10px;
+}
+
+#contents_offer .annotation-text p ,
+.ticket-offer-box .annotation-text p{
     color: #ffc700;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -659,12 +669,21 @@ input[type='radio']:checked + label::after {
     margin: 0 0 20px 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     #contents_fv {
-        margin-bottom: 370px;
+        margin-bottom: 420px;
     }
     .fv-ticket-box {
-        bottom: -380px;
+        bottom: -420px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #contents_fv {
+        margin-bottom: 450px;
+    }
+    .fv-ticket-box {
+        bottom: -450px;
     }
 
     input[type='radio'] + label {
