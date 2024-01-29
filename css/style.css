@@ -118,12 +118,12 @@ img[src$='.svg'] {
 .ticket-fee-box-box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: bold;
 }
 
 .ticket-fee-box-text {
-    width: 50%;
+    width: 60%;
 }
 
 .ticket-fee-box-text .great {
@@ -144,7 +144,7 @@ img[src$='.svg'] {
 
 .ticket-fee-box-fee {
     text-align: center;
-    width: 38%;
+    width: 40%;
 }
 
 .ticket-fee-box-fee .former {
@@ -164,7 +164,7 @@ img[src$='.svg'] {
 
 .ticket-fee-box-fee .regular {
     margin-bottom: -5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .ticket-fee-box-fee .price span {
@@ -518,7 +518,7 @@ input[type='radio']:checked + label::after {
 #contents_offer .annotation-text p ,
 .ticket-offer-box .annotation-text p{
     color: #ffc700;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 0.5px;
     margin-bottom: 4px;
 }
@@ -654,7 +654,7 @@ input[type='radio']:checked + label::after {
 
 #content_bottom-cta .ticket-box .annotation-text p {
     color: #ffc700;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 0.5px;
     margin-bottom: 4px;
 }
@@ -693,13 +693,16 @@ input[type='radio']:checked + label::after {
     }
 }
 @media screen and (max-width: 420px) {
-    #contents_offer .ticket-offer-box .ticket-fee-box-text .ticket-name,
-    #content_bottom-cta .ticket-name {
+    #contents_offer .ticket-offer-box .ticket-fee-box-text .ticket-name {
         font-size: 13px;
     }
 
+    #content_bottom-cta .ticket-name {
+        font-size: 16px;
+    }
+
     .ticket-fee-box-text .ticket-name {
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
